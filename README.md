@@ -5,7 +5,8 @@ This tool can be used for nucleotide sequence analysis and codon optimisation fo
 Optimisation can be performed using any combination of parameters including: predicted expression level, codon bias, GC content and codon usage irregularity.
 
 ## Download
-Compiled versions for MacOS and Windows are available in the Releases
+Compiled versions for MacOS and Windows are available in the Releases.
+Python module for sequence optimisation is available at [PyPI](https://pypi.org/project/genop/) and [Github](https://github.com/conzaytsev/GeneOptimizer).
 
 ## Usage
 The tool comes with pre-trained models for E. coli. We plan to add more species with lated development.
