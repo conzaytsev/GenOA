@@ -10,7 +10,22 @@ Python module for sequence optimisation is available at [PyPI](https://pypi.org/
 
 ## Usage
 The tool comes with pre-trained models for E. coli. We plan to add more species with lated development.
+
 For other species there is the `Custom` option in the `Model organism selection` tab, which opens additional menus to upload datasets for CEI and GeneSpace model training. More about dataset formats can be seen in the readme for those projects.
+For CEI this dataset should be provided as a table in the csv format with three columns: ID; expression value; gene sequence.
+First line of the table is reserved for the header.
+
+
+Example:
+
+    Protein ID;Protein copies;Gene sequence
+    P69776;38022.530250746298;ATGAAAGCTACTAAACTGGTACTGGGCGCGGTAATCCTGGGTTCTACTCTGCTGGCAGGTTGCTCCAGCAACGCTAAAATCGATCAGCTGTCTTCTGACGTTCAGACTCTGAACGCTAAAGTTGACCAGCTGAGCAACGACGTGAACGCAATGCGTTCCGACGTTCAGGCTGCTAAAGATGACGCAGCTCGTGCTAACCAGCGTCTGGACAACATGGCTACTAAATACCGCAAGTAA
+    P0AG51;4376.7908013480401;ATGGCAAAGACTATTAAAATTACTCAAACCCGCAGTGCAATCGGTCGTCTGCCGAAACACAAGGCAACGCTGCTTGGCCTGGGTCTGCGTCGTATTGGTCACACCGTAGAGCGCGAGGATACTCCTGCTATTCGCGGTATGATCAACGCGGTTTCCTTCATGGTTAAAGTTGAGGAGTAA
+    P0A7Q6;3802.6818971891998;ATGAAAGTTCGTGCTTCCGTCAAGAAATTATGCCGTAACTGCAAAATCGTTAAGCGTGATGGTGTCATCCGTGTGATTTGCAGTGCCGAGCCGAAGCATAAACAGCGCCAAGGCTGA
+
+
+The GeneSpace model can either use the same format dataset as CEI, or a Fasta file with nucleotide sequences.
+
 
 There are two options for the input sequence: nucleotide (DNA) and protein. Both of them can be used for sequence optimisation, but nucleotide sequences also can be analysed for the target species using the `Calculate sequence features` option. This shows the calculated parameters with the option to show some of them on a graph compared to the distibution for the native genes.
 
