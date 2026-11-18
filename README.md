@@ -5,7 +5,7 @@ This tool can be used for nucleotide sequence analysis and codon optimisation fo
 Optimisation can be performed using any combination of parameters including: predicted expression level, codon bias, GC content and codon usage irregularity.
 
 ## Download
-Compiled versions for MacOS and Windows are available in the [Releases](https://github.com/conzaytsev/GenOA/releases).
+Compiled versions for MacOS and Windows are available in the [Releases](https://github.com/conzaytsev/GenOA/releases/latest).
 Python module for sequence optimisation is available at [PyPI](https://pypi.org/project/genop/) and [Github](https://github.com/conzaytsev/GeneOptimizer).
 
 ## Usage
