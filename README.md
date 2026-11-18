@@ -7,7 +7,7 @@ Optimisation can be performed using any combination of parameters including: pre
 ## Download
 Compiled versions for MacOS and Windows are available in the [Releases](https://github.com/conzaytsev/GenOA/releases/latest).
 
-Python module for sequence optimisation is available at [PyPI](https://pypi.org/project/genop/) and [Github](https://github.com/conzaytsev/GeneOptimizer).
+Standalone Python module for sequence optimisation is available at [PyPI](https://pypi.org/project/genop/) and [Github](https://github.com/conzaytsev/GeneOptimizer).
 
 ## Usage
 The tool comes with pre-trained models for E. coli. We plan to add more species with lated development.
